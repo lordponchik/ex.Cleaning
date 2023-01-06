@@ -5,235 +5,305 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cleaning X</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="/">Cleaning</a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Pages</a></li>
-          <li><a href="">Contact</a></li>
+    <header class="header">
+      <nav class="nav">
+        <a class="logo" href="/">Cleaning</a>
+        <ul class="nav-menu">
+          <li class="nav-list"><a href="" class="nav-link">Home</a></li>
+          <li class="nav-list"><a href="" class="nav-link">About</a></li>
+          <li class="nav-list"><a href="" class="nav-link">Services</a></li>
+          <li class="nav-list"><a href="" class="nav-link">Pages</a></li>
+          <li class="nav-list"><a href="" class="nav-link">Contact</a></li>
         </ul>
       </nav>
-      <p>Cart (0)</p>
-      <button type="button">Get a free quote</button>
+      <p class="basket-text">Cart (0)</p>
+      <button type="button" class="basket-btn">Get a free quote</button>
     </header>
     <main>
-      <section>
-        <h1>Quality cleaning for your home</h1>
-        <p>
+      <section class="hero">
+        <h1 class="hero-title">Quality cleaning for your home</h1>
+        <p class="hero-text">
           Condimentum mauris sit cursus amet id non neque pharetra nulla ornare
           sed facilisis senectus dapibus nibh ultrices eget suscipit aliquet et
           nulla magna lacus penatibus.
         </p>
-        <button type="button">Get a free quote</button>
-        <p>Call us now</p>
-        <a href="tel:4145672109">(414) 567 - 2109</a>
+        <button type="button" class="hero-btn">Get a free quote</button>
+        <p class="hero-tel">Call us now</p>
+        <a href="tel:4145672109" class="hero-tel-link">(414) 567 - 2109</a>
         <img src="./images/hero-img.png" alt="Girl vacuuming" />
       </section>
-      <section>
-        <h2>How our service works?</h2>
-        <p>
+      <section class="our-service">
+        <h2 class="our-service-title">How our service works?</h2>
+        <p class="our-service-text">
           Sagittis nibh scelerisque vitae eget vulputate sem elementum sed neque
           nisi felis non ultrices massa id egestas quam velit pretium nu.
         </p>
-        <ul>
-          <li>
-            <img src="./images/calendar.png" alt="Calendar" />
-            <h3>1. Schedule online</h3>
-            <p>
+        <ul class="steps-menu">
+          <li class="steps-list">
+            <img
+              src="./images/calendar.png"
+              alt="Calendar"
+              class="steps-img"
+              width="240"
+            />
+            <h3 class="steps-title">1. Schedule online</h3>
+            <p class="steps-description">
               Sagittis nibh scelerisque vitae egetolment vulputate sem elementum
               sed n.
             </p>
           </li>
-          <li>
-            <img src="./images/credit.png" alt="Credit" />
-            <h3>2. Pay online easily</h3>
-            <p>
+          <li class="steps-list">
+            <img
+              src="./images/credit.png"
+              alt="Credit"
+              class="steps-img"
+              width="240"
+            />
+            <h3 class="steps-title">2. Pay online easily</h3>
+            <p class="steps-description">
               Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida amet
               at nunc.
             </p>
           </li>
-          <li>
-            <img src="./images/vacuum-cleaner.png" alt="Vacuum cleaner" />
-            <h3>3. Get your house cleaned</h3>
-            <p>
+          <li class="steps-list">
+            <img
+              src="./images/vacuum-cleaner.png"
+              alt="Vacuum cleaner"
+              class="steps-img"
+              width="240"
+            />
+            <h3 class="steps-title">3. Get your house cleaned</h3>
+            <p class="steps-description">
               Nunc maecenas sollicitudin metus tellus mattis sed porttitor
               cursus eleifend.
             </p>
           </li>
         </ul>
-        <button type="button">Get a free quote</button>
-        <button type="button">Explore services</button>
+        <button type="button" class="our-service-get">Get a free quote</button>
+        <button type="button" class="our-service-explore">
+          Explore services
+        </button>
       </section>
-      <section>
-        <h2>Our cleaning services have no comparison</h2>
-        <p>
+      <section class="statistics">
+        <h2 class="statistics-title">
+          Our cleaning services have no comparison
+        </h2>
+        <p class="statistics-description">
           Lobortis mattis odio leo eget mauris met aliquet semper molestie
           sollicitudin congue massa mauris lectus vitae cras viverra gravida
           sapien.
         </p>
-        <ul>
-          <li>
-            <img src="" alt="" />
-            <p>clients</p>
-            <p>3,480+</p>
+        <ul class="statistics-menu">
+          <li class="statistics-list">
+            <img src="" alt="" class="statistics-logo" />
+            <p class="statistics-name">clients</p>
+            <p class="statistics-amount">3,480+</p>
           </li>
-          <li>
-            <img src="" alt="" />
-            <p>Jobs done</p>
-            <p>12,540+</p>
+          <li class="statistics-list">
+            <img src="" alt="" class="statistics-logo" />
+            <p class="statistics-name">Jobs done</p>
+            <p class="statistics-amount">12,540+</p>
           </li>
-          <li>
-            <img src="" alt="" />
-            <p>Employees</p>
-            <p>100+</p>
-          </li>
-        </ul>
-        <img src="./images/cleaning.jpg" alt="Cleaning" />
-      </section>
-      <section>
-        <h2>Take a look at our professional services</h2>
-        <button type="button">Explore services</button>
-        <ul>
-          <li>
-            <img src="./images/house.png" alt="House" />
-            <h3>House cleaning</h3>
-            <p>
-              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-              dalaracc lacus vel facilisis volutpat est.
-            </p>
-          </li>
-          <li>
-            <img src="./images/office.png" alt="Office" />
-            <h3>Office cleaning</h3>
-            <p>
-              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-              dalaracc lacus vel facilisis volutpat est.
-            </p>
-          </li>
-          <li>
-            <img src="./images/industrial.png" alt="Industrial" />
-            <h3>Industrial cleaning</h3>
-            <p>
-              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-              dalaracc lacus vel facilisis volutpat est.
-            </p>
+          <li class="statistics-list">
+            <img src="" alt="" class="statistics-logo" />
+            <p class="statistics-name">Employees</p>
+            <p class="statistics-amount">100+</p>
           </li>
         </ul>
+        <img
+          class="statistics-img"
+          src="./images/cleaning.jpg"
+          alt="Cleaning"
+          width="1012"
+        />
       </section>
-      <section>
-        <p>Covid-19 sanitization</p>
-        <h2>We follow guidelines to keep you safe from the COVID-19 virus</h2>
-        <p>
+      <section class="work-locations">
+        <h2 class="work-locations-title">
+          Take a look at our professional services
+        </h2>
+        <button type="button" class="work-locations-btn">
+          Explore services
+        </button>
+        <ul class="locations">
+          <li class="locations-list">
+            <img src="./images/house.png" alt="House" class="locations-img" />
+            <h3 class="locations-title">House cleaning</h3>
+            <p class="locations-description">
+              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+              dalaracc lacus vel facilisis volutpat est.
+            </p>
+          </li>
+          <li class="locations-list">
+            <img src="./images/office.png" alt="Office" class="locations-img" />
+            <h3 class="locations-title">Office cleaning</h3>
+            <p class="locations-description">
+              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+              dalaracc lacus vel facilisis volutpat est.
+            </p>
+          </li>
+          <li class="locations-list">
+            <img
+              src="./images/industrial.png"
+              alt="Industrial"
+              class="locations-img"
+            />
+            <h3 class="locations-title">Industrial cleaning</h3>
+            <p class="locations-description">
+              Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
+              dalaracc lacus vel facilisis volutpat est.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="sanitization">
+        <p class="sanitization-subtitle">Covid-19 sanitization</p>
+        <h2 class="sanitization-title">
+          We follow guidelines to keep you safe from the COVID-19 virus
+        </h2>
+        <p class="sanitization-text">
           Lobortis mattis odio leo eget mauris met aliquet semper molestie
           sollicitudin congue massa mauris lectus.
         </p>
-        <button type="button">Get a free quote</button>
-        <p>Call us now</p>
-        <a href="tel:4145672109">(414) 567 - 2109</a>
+        <button type="button" class="sanitization-btn">Get a free quote</button>
+        <p class="sanitization-tel">Call us now</p>
+        <a href="tel:4145672109" class="sanitization-tel-link"
+          >(414) 567 - 2109</a
+        >
       </section>
-      <section>
-        <img src="./images/home.png" alt="Home" />
-        <h2>We cover all areas of your home or office</h2>
-        <p>
+      <section class="areasworks">
+        <img src="./images/home.png" alt="Home" class="areasworks-img" />
+        <h2 class="areasworks-title">
+          We cover all areas of your home or office
+        </h2>
+        <p class="areasworks-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam.
         </p>
-        <ul>
-          <li>Bathrooms</li>
-          <li>Kitchens</li>
-          <li>Living Rooms</li>
-          <li>Carpets</li>
-          <li>Bedrooms</li>
-          <li>Offices</li>
-          <li>Businesses</li>
-          <li>Windows</li>
+        <ul class="areasworks-menu">
+          <li class="areasworks-list">Bathrooms</li>
+          <li class="areasworks-list">Kitchens</li>
+          <li class="areasworks-list">Living Rooms</li>
+          <li class="areasworks-list">Carpets</li>
+          <li class="areasworks-list">Bedrooms</li>
+          <li class="areasworks-list">Offices</li>
+          <li class="areasworks-list">Businesses</li>
+          <li class="areasworks-list">Windows</li>
         </ul>
-        <button type="button">Get a free quote</button>
+        <button type="button" class="areasworks-btn">Get a free quote</button>
       </section>
-      <section>
-        <h2>What makes us different?</h2>
-        <p>
+      <section class="differences">
+        <h2 class="differences-title">What makes us different?</h2>
+        <p class="differences-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam.
         </p>
-        <p>
+        <p class="differences-text">
           Sed ut perspiciatis unde omnis iste natus error sit atem accusantium
           doloremque laudantiu sed ut.
         </p>
-        <ul>
-          <li>
-            <p>10+</p>
-            <p>Years</p>
+        <ul class="progress">
+          <li class="progress-list">
+            <p class="progress-amount">10+</p>
+            <p class="progress-name">Years</p>
           </li>
-          <li>
-            <p>5k+</p>
-            <p>Clients</p>
+          <li class="progress-list">
+            <p class="progress-amount">5k+</p>
+            <p class="progress-name">Clients</p>
           </li>
-          <li>
-            <p>20k+</p>
-            <p>Jobs done</p>
+          <li class="progress-list">
+            <p class="progress-amount">20k+</p>
+            <p class="progress-name">Jobs done</p>
           </li>
         </ul>
-        <button type="button">Get a free quote</button>
-        <img src="./images/man-cleaning.png" alt="Man cleaning" />
+        <button type="button" class="differences-btn">Get a free quote</button>
+        <img
+          src="./images/man-cleaning.png"
+          alt="Man cleaning"
+          class="differences-img"
+          width="686"
+        />
       </section>
-      <section>
-        <h2>Articles & resources</h2>
-        <p>
+      <section class="resources">
+        <h2 class="resources-title">Articles & resources</h2>
+        <p class="resources-text">
           Lobortis mattis odio leo eget mauris met aliquet semper molestie
           sollicitudin congue massa mauris lectus.
         </p>
-        <button type="button">Get a free quote</button>
-        <button type="button">Browse articles</button>
-        <ul>
-          <li>
-            <img src="./images/best-vacuum.jpg" alt="Best vacuum" />
-            <h3>
+        <button type="button" class="resources-get">Get a free quote</button>
+        <button type="button" class="resources-browse">Browse articles</button>
+        <ul class="articles">
+          <li class="articles-list">
+            <img
+              src="./images/best-vacuum.jpg"
+              alt="Best vacuum"
+              class="articles-img"
+              width="596"
+            />
+            <h3 class="articles-title">
               8 best vacuum cleaners to clean any mess for your home in 2022
             </h3>
-            <p>
+            <p class="articles-description">
               Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo
               quis odio sit sit ac port titor sit males.
             </p>
-            <p>Jan 28, 2022</p>
-            <button></button>
+            <p class="articles-date">Jan 28, 2022</p>
+            <button type="button" class="articles-btn"></button>
           </li>
-          <li>
+          <li class="articles-list">
             <img
               src="./images/proper-disinfection.jpg"
               alt="Proper disinfection"
+              class="articles-img"
+              width="596"
             />
-            <h3>How to properly disinfect your phone and other electronics</h3>
-            <p>
+            <h3 class="articles-title">
+              How to properly disinfect your phone and other electronics
+            </h3>
+            <p class="articles-description">
               Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo
               quis odio sit sit ac port titor sit males.
             </p>
-            <p>Feb 1, 2022</p>
-            <button></button>
+            <p class="articles-date">Feb 1, 2022</p>
+            <button type="button" class="articles-btn"></button>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Request a free cleaning quote today</h2>
-        <p>
+      <section class="freecleaning">
+        <h2 class="freecleaning-title">Request a free cleaning quote today</h2>
+        <p class="freecleaning-description">
           In dignissim euismod pretium amet enim a eu nam ut urna accumsan
           pellentesque lacus duis pharetra eutortor.
         </p>
-        <p>Call us now</p>
-        <a href="tel:4145672109">(414) 567 - 2109</a>
-        <h3>Not convinced yet?</h3>
-        <p>
+        <p class="freecleaning-tel">Call us now</p>
+        <a href="tel:4145672109" class="freecleaning-tel-link"
+          >(414) 567 - 2109</a
+        >
+        <h3 class="freecleaning-subtitle">Not convinced yet?</h3>
+        <p class="freecleaning-text">
           Massa bibendum consectetur maurisid gravida purus, dolor dui amet
           morbi non nunc urna purus diam.
         </p>
-        <button type="button">Browse our packages</button>
+        <button type="button" class="freecleaning-btn">
+          Browse our packages
+        </button>
         <form action="">
           <input type="text" />
           <input type="text" />
@@ -243,7 +313,7 @@
         </form>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <ul>
         <li>
           <h2>Quality cleaning for your home</h2>

@@ -1,0 +1,300 @@
+:root {
+  --primary-color-text: #6e7191;
+  --secondary-color-text: #211f54;
+  --accent-color: #0075ff;
+  --white-color: #ffffff;
+  --secondary-background-color: #edf5ff;
+}
+body {
+  color: var(--primary-color-text);
+  background-color: var(--white-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  line-height: 1.43;
+}
+.nav-link {
+  color: var(--secondary-color-text);
+  font-size: 18px;
+  line-height: 1.67;
+}
+.basket-text {
+  color: var(--secondary-color-text);
+  font-size: 18px;
+  line-height: 1.67;
+}
+.basket-btn {
+  font-size: 16px;
+  line-height: 1.13;
+  font-weight: 700;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-style: none;
+  border-radius: 14px;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 1.09;
+  color: var(--secondary-color-text);
+}
+.hero-btn {
+  font-size: 16px;
+  line-height: 1.13;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-style: none;
+  border-radius: 14px;
+}
+.hero-tel {
+  font-size: 16px;
+  line-height: 1.12;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.hero-tel-link {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.29;
+  color: var(--secondary-color-text);
+}
+.our-service-title {
+  font-size: 48px;
+  line-height: 1.21;
+  text-align: center;
+  color: var(--secondary-color-text);
+}
+.steps-title {
+  font-size: 28px;
+  line-height: 1.29;
+  text-align: center;
+  color: var(--secondary-color-text);
+}
+.steps-description {
+  text-align: center;
+}
+.our-service-get {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-style: none;
+  border-radius: 14px;
+}
+.our-service-explore {
+  font-size: 18px;
+  line-height: 1.11;
+  color: var(--secondary-color-text);
+  border: 1px solid #eff0f6;
+  box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+  border-radius: 14px;
+}
+.statistics-title {
+  font-size: 48px;
+  line-height: 1.21;
+  text-align: center;
+  color: var(--secondary-color-text);
+}
+.statistics-name {
+  font-size: 16px;
+  line-height: 1.12;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.statistics-amount {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.29;
+  color: var(--secondary-color-text);
+}
+.work-locations-title {
+  font-size: 48px;
+  line-height: 1.21;
+  color: var(--secondary-color-text);
+}
+.work-locations-btn {
+  font-size: 18px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--secondary-color-text);
+  background: var(--white-color);
+  border: 1px solid #eff0f6;
+  box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+  border-radius: 14px;
+}
+.locations-title {
+  font-size: 24px;
+  line-height: 1.42;
+  text-align: center;
+  color: var(--secondary-color-text);
+}
+.locations-description {
+  text-align: center;
+}
+.sanitization-subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.12;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.sanitization-title {
+  font-size: 48px;
+  line-height: 1.21;
+  color: var(--white-color);
+}
+.sanitization-text {
+  color: var(--white-color);
+}
+.sanitization-btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--white-color);
+  background: var(--accent-color);
+  border-radius: 14px;
+}
+.sanitization-tel {
+  font-size: 16px;
+  line-height: 1.12;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.sanitization-tel-link {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.29;
+  color: var(--white-color);
+}
+.areasworks-title {
+  font-size: 48px;
+  line-height: 1.21;
+  color: var(--secondary-color-text);
+}
+.areasworks-description {
+  font-size: 18px;
+  line-height: 1.67;
+}
+.areasworks-list {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  color: var(--secondary-color-text);
+}
+.areasworks-btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--white-color);
+  background: #0075ff;
+  border-radius: 14px;
+}
+.differences-title {
+  font-size: 48px;
+  line-height: 1.21;
+  color: var(--secondary-color-text);
+}
+.differences-description {
+  font-size: 18px;
+  line-height: 1.67;
+}
+.differences-text {
+  font-size: 12px;
+  line-height: 2.5;
+}
+.progress-amount {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1.22;
+  color: var(--secondary-color-text);
+}
+.progress-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.differences-btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--white-color);
+  background: var(--accent-color);
+  border-radius: 14px;
+}
+.resources-title {
+  font-size: 48px;
+  line-height: 1.21;
+  color: var(--secondary-color-text);
+}
+.resources-get {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--white-color);
+  background: var(--accent-color);
+  border-radius: 14px;
+}
+.resources-browse {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--secondary-color-text);
+  background: var(--white-color);
+  border: 1px solid #eff0f6;
+  box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+  border-radius: 14px;
+}
+.articles-title {
+  font-size: 24px;
+  line-height: 1.42;
+  color: var(--secondary-color-text);
+}
+.articles-date {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  color: var(--secondary-color-text);
+}
+.freecleaning {
+  background-color: #f7f9fc;
+}
+.freecleaning-title {
+  font-size: 48px;
+  line-height: 1.21;
+  color: var(--secondary-color-text);
+}
+.freecleaning-tel {
+  font-size: 16px;
+  line-height: 1.12;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.freecleaning-tel-link {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.29;
+  color: var(--secondary-color-text);
+}
+.freecleaning-subtitle {
+  font-size: 28px;
+  line-height: 1.29;
+  color: var(--secondary-color-text);
+}
+.freecleaning-btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--secondary-color-text);
+  background: var(--white-color);
+  border: 1px solid #eff0f6;
+  box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+  border-radius: 14px;
+}
