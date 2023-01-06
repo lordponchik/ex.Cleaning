@@ -12,10 +12,14 @@ body {
   font-size: 21px;
   line-height: 1.43;
 }
+.nav-list {
+  list-style: none;
+}
 .nav-link {
   color: var(--secondary-color-text);
   font-size: 18px;
   line-height: 1.67;
+  text-decoration: none;
 }
 .basket-text {
   color: var(--secondary-color-text);
@@ -30,6 +34,7 @@ body {
   background-color: var(--accent-color);
   border-style: none;
   border-radius: 14px;
+  cursor: pointer;
 }
 .hero-title {
   font-weight: 700;
@@ -296,5 +301,80 @@ body {
   background: var(--white-color);
   border: 1px solid #eff0f6;
   box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+  border-radius: 14px;
+}
+.quality-title {
+  font-size: 28px;
+  line-height: 1.29;
+  color: var(--secondary-color-text);
+}
+.quality-text {
+  font-size: 18px;
+  line-height: 1.67;
+}
+.social-link {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: var(--secondary-background-color);
+  border-radius: 8px;
+}
+.contact-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
+  color: var(--secondary-color-text);
+}
+.contact-information {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+}
+.opening-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
+  color: var(--secondary-color-text);
+}
+.opening-weekdays {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  color: var(--secondary-color-text);
+}
+.opening-hours {
+  font-size: 18px;
+  line-height: 1.67;
+}
+.opening-weekend {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  color: var(--secondary-color-text);
+}
+.free-estimate-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
+  color: var(--secondary-color-text);
+}
+.free-estimate-tel {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.29;
+  color: var(--accent-color);
+}
+.free-estimate-text {
+  font-size: 18px;
+  line-height: 1.67;
+}
+.free-estimate-btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--secondary-background-color);
+  background: var(--accent-color);
   border-radius: 14px;
 }
