@@ -22,83 +22,108 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
-        <a class="logo" href="/">Cleaning</a>
-        <ul class="nav-menu">
-          <li class="nav-list"><a href="" class="nav-link">Home</a></li>
-          <li class="nav-list"><a href="" class="nav-link">About</a></li>
-          <li class="nav-list"><a href="" class="nav-link">Services</a></li>
-          <li class="nav-list"><a href="" class="nav-link">Pages</a></li>
-          <li class="nav-list"><a href="" class="nav-link">Contact</a></li>
-        </ul>
-      </nav>
-      <p class="basket-text">Cart (0)</p>
-      <button type="button" class="basket-btn">Get a free quote</button>
+      <div class="container header-container">
+        <nav class="nav">
+          <a class="logo link" href="/">Cleaning</a>
+          <ul class="nav-menu list">
+            <li class="nav-list"><a href="" class="nav-link link">Home</a></li>
+            <li class="nav-list"><a href="" class="nav-link link">About</a></li>
+            <li class="nav-list">
+              <a href="" class="nav-link link">Services</a>
+            </li>
+            <li class="nav-list"><a href="" class="nav-link link">Pages</a></li>
+            <li class="nav-list">
+              <a href="" class="nav-link link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="basket-modal">
+          <p class="basket-text">Cart (0)</p>
+          <button type="button" class="basket-btn">Get a free quote</button>
+        </div>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Quality cleaning for your home</h1>
-        <p class="hero-text">
-          Condimentum mauris sit cursus amet id non neque pharetra nulla ornare
-          sed facilisis senectus dapibus nibh ultrices eget suscipit aliquet et
-          nulla magna lacus penatibus.
-        </p>
-        <button type="button" class="hero-btn">Get a free quote</button>
-        <p class="hero-tel">Call us now</p>
-        <a href="tel:4145672109" class="hero-tel-link">(414) 567 - 2109</a>
-        <img src="./images/hero-img.png" alt="Girl vacuuming" />
+        <div class="container hero-container">
+          <div class="hero-wrapper">
+            <h1 class="hero-title">Quality cleaning for your home</h1>
+            <p class="hero-text">
+              Condimentum mauris sit cursus amet id non neque pharetra nulla
+              ornare sed facilisis senectus dapibus nibh ultrices eget suscipit
+              aliquet et nulla magna lacus penatibus.
+            </p>
+            <div class="hero-btn-block">
+              <button type="button" class="hero-btn">Get a free quote</button>
+              <div class="hero-tel-block">
+                <p class="hero-tel">Call us now</p>
+                <a href="tel:4145672109" class="hero-tel-link"
+                  >(414) 567 - 2109</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- <img src="./images/hero-img.png" alt="Girl vacuuming" /> -->
+        </div>
       </section>
-      <section class="our-service">
-        <h2 class="our-service-title">How our service works?</h2>
-        <p class="our-service-text">
-          Sagittis nibh scelerisque vitae eget vulputate sem elementum sed neque
-          nisi felis non ultrices massa id egestas quam velit pretium nu.
-        </p>
-        <ul class="steps-menu">
-          <li class="steps-list">
-            <img
-              src="./images/calendar.png"
-              alt="Calendar"
-              class="steps-img"
-              width="240"
-            />
-            <h3 class="steps-title">1. Schedule online</h3>
-            <p class="steps-description">
-              Sagittis nibh scelerisque vitae egetolment vulputate sem elementum
-              sed n.
-            </p>
-          </li>
-          <li class="steps-list">
-            <img
-              src="./images/credit.png"
-              alt="Credit"
-              class="steps-img"
-              width="240"
-            />
-            <h3 class="steps-title">2. Pay online easily</h3>
-            <p class="steps-description">
-              Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida amet
-              at nunc.
-            </p>
-          </li>
-          <li class="steps-list">
-            <img
-              src="./images/vacuum-cleaner.png"
-              alt="Vacuum cleaner"
-              class="steps-img"
-              width="240"
-            />
-            <h3 class="steps-title">3. Get your house cleaned</h3>
-            <p class="steps-description">
-              Nunc maecenas sollicitudin metus tellus mattis sed porttitor
-              cursus eleifend.
-            </p>
-          </li>
-        </ul>
-        <button type="button" class="our-service-get">Get a free quote</button>
-        <button type="button" class="our-service-explore">
-          Explore services
-        </button>
+      <section class="our-service section">
+        <div class="container">
+          <h2 class="our-service-title">How our service works?</h2>
+          <p class="our-service-text">
+            Sagittis nibh scelerisque vitae eget vulputate sem elementum sed
+            neque nisi felis non ultrices massa id egestas quam velit pretium
+            nu.
+          </p>
+          <ul class="steps-menu list">
+            <li class="steps-list">
+              <img
+                src="./images/calendar.png"
+                alt="Calendar"
+                class="steps-img"
+                width="240"
+              />
+              <h3 class="steps-title">1. Schedule online</h3>
+              <p class="steps-description">
+                Sagittis nibh scelerisque vitae egetolment vulputate sem
+                elementum sed n.
+              </p>
+            </li>
+            <li class="steps-list">
+              <img
+                src="./images/credit.png"
+                alt="Credit"
+                class="steps-img"
+                width="270"
+              />
+              <h3 class="steps-title">2. Pay online easily</h3>
+              <p class="steps-description">
+                Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida
+                amet at nunc.
+              </p>
+            </li>
+            <li class="steps-list">
+              <img
+                src="./images/vacuum-cleaner.png"
+                alt="Vacuum cleaner"
+                class="steps-img"
+                width="258"
+              />
+              <h3 class="steps-title">3. Get your house cleaned</h3>
+              <p class="steps-description">
+                Nunc maecenas sollicitudin metus tellus mattis sed porttitor
+                cursus eleifend.
+              </p>
+            </li>
+          </ul>
+          <div class="our-service-btn-block">
+            <button type="button" class="our-service-get">
+              Get a free quote
+            </button>
+            <button type="button" class="our-service-explore">
+              Explore services
+            </button>
+          </div>
+        </div>
       </section>
       <section class="statistics">
         <h2 class="statistics-title">
