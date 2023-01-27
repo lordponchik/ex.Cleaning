@@ -154,9 +154,10 @@ img {
   color: var(--secondary-color-text);
 }
 
-.our-service {
+.our-service-wrapper {
   border-bottom: 1px solid #dcddeb;
 }
+
 .our-service-title {
   margin-bottom: 21px;
   font-size: 48px;
@@ -217,6 +218,10 @@ img {
   background-color: #ffffff;
   box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
   border-radius: 14px;
+}
+.statistics-wrapper {
+  padding-bottom: 240px;
+  border-bottom: 1px solid #dcddeb;
 }
 .statistics-title {
   margin-bottom: 13px;
@@ -316,7 +321,22 @@ img {
 
   text-align: center;
 }
+.sanitization-wrapper {
+  background-image: url(../images/covid-19-sanitization.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-color: var(--secondary-color-text);
+  border-radius: 24px;
+  padding: 138px 74px 138px 0;
+}
+.sanitization-description {
+  width: 556px;
+  margin-left: auto;
+}
 .sanitization-subtitle {
+  margin-bottom: 17px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.12;
@@ -325,20 +345,32 @@ img {
   color: var(--white-color);
 }
 .sanitization-title {
+  margin-bottom: 18px;
+
   font-size: 48px;
   line-height: 1.21;
   color: var(--white-color);
 }
 .sanitization-text {
+  margin-bottom: 12px;
+
   color: var(--white-color);
 }
+.sanitization-btn-block {
+  display: flex;
+  align-items: center;
+}
 .sanitization-btn {
+  margin-right: 28px;
+  padding: 26px 38px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
   text-align: center;
   color: var(--white-color);
   background: var(--accent-color);
+  border-style: none;
   border-radius: 14px;
 }
 .sanitization-tel {
@@ -354,22 +386,59 @@ img {
   line-height: 1.29;
   color: var(--white-color);
 }
+.areasworks-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.areasworks-img {
+  margin-right: 80px;
+}
 .areasworks-title {
+  margin-bottom: 19px;
+
   font-size: 48px;
   line-height: 1.21;
   color: var(--secondary-color-text);
 }
 .areasworks-description {
+  margin-bottom: 26px;
+
   font-size: 18px;
   line-height: 1.67;
 }
+.areasworks-menu {
+  display: flex;
+  margin-bottom: 48px;
+}
+.areasworks-left {
+  margin-right: 56px;
+}
 .areasworks-list {
+  display: flex;
+  align-items: center;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
   color: var(--secondary-color-text);
 }
+.areasworks-list:not(:last-child) {
+  margin-bottom: 24px;
+}
+.areasworks-list:before {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin-right: 8px;
+
+  border-radius: 50%;
+  background-color: var(--secondary-background-color);
+}
 .areasworks-btn {
+  padding: 26px 38px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
@@ -377,19 +446,41 @@ img {
   color: var(--white-color);
   background: #0075ff;
   border-radius: 14px;
+  border-style: none;
+}
+.differences-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+  border-bottom: 1px solid #dcddeb;
 }
 .differences-title {
+  margin-bottom: 19px;
+
   font-size: 48px;
   line-height: 1.21;
   color: var(--secondary-color-text);
 }
 .differences-description {
+  margin-bottom: 15px;
+
   font-size: 18px;
   line-height: 1.67;
 }
 .differences-text {
+  margin-bottom: 26px;
+
   font-size: 12px;
   line-height: 2.5;
+}
+
+.progress {
+  display: flex;
+  margin-bottom: 48px;
+}
+.progress-list:not(:last-child) {
+  margin-right: 38px;
 }
 .progress-amount {
   font-weight: 700;
@@ -403,6 +494,7 @@ img {
   line-height: 1.33;
 }
 .differences-btn {
+  padding: 26px 38px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
@@ -410,6 +502,16 @@ img {
   color: var(--white-color);
   background: var(--accent-color);
   border-radius: 14px;
+  border-style: none;
+}
+.resources-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.resources-text-block {
+  width: 474px;
+  margin-right: auto;
 }
 .resources-title {
   font-size: 48px;
@@ -417,6 +519,9 @@ img {
   color: var(--secondary-color-text);
 }
 .resources-get {
+  padding: 26px 38px;
+  margin-right: 28px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
@@ -424,8 +529,11 @@ img {
   color: var(--white-color);
   background: var(--accent-color);
   border-radius: 14px;
+  border-style: none;
 }
 .resources-browse {
+  padding: 26px 38px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
@@ -436,16 +544,57 @@ img {
   box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
   border-radius: 14px;
 }
+.articles {
+  display: flex;
+  margin-top: -28px;
+  margin-left: -28px;
+  align-items: center;
+  margin-bottom: 306px;
+}
+.articles-list {
+  flex-basis: calc(100% / 2 - 28px);
+  margin-top: 28px;
+  margin-left: 28px;
+  position: relative;
+}
+.articles-img {
+  position: absolute;
+  z-index: -1;
+}
+.articles-text {
+  position: relative;
+  bottom: -306px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: var(--white-color);
+  border: 1px solid #eff0f6;
+  box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+  border-radius: 24px;
+}
 .articles-title {
+  margin-bottom: 17px;
+
   font-size: 24px;
   line-height: 1.42;
   color: var(--secondary-color-text);
+}
+.articles-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .articles-date {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
   color: var(--secondary-color-text);
+}
+.articles-btn {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  background-color: var(--accent-color);
 }
 .freecleaning {
   background-color: #f7f9fc;
