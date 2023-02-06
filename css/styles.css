@@ -26,8 +26,10 @@ body {
 .container {
   /* width: 1440px; */
   width: 1368px;
-  padding-left: 110px;
-  padding-right: 110px;
+  /* padding-left: 110px;
+  padding-right: 110px; */
+  padding-left: 60px;
+  padding-right: 60px;
   margin: 0 auto;
 }
 img {
@@ -599,12 +601,33 @@ img {
 .freecleaning {
   background-color: #f7f9fc;
 }
+.freecleaning-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.freecleaning-block-text {
+  margin-right: 60px;
+}
+.freecleaning-block-text-top {
+  border-bottom: 1px solid #dcddeb;
+  margin-bottom: 50px;
+
+  padding-bottom: 50px;
+}
 .freecleaning-title {
+  margin-bottom: 10px;
+
   font-size: 48px;
   line-height: 1.21;
   color: var(--secondary-color-text);
 }
+.freecleaning-description {
+  margin-bottom: 10px;
+}
 .freecleaning-tel {
+  margin-bottom: 5px;
+
   font-size: 16px;
   line-height: 1.12;
   letter-spacing: 1.6px;
@@ -617,11 +640,18 @@ img {
   color: var(--secondary-color-text);
 }
 .freecleaning-subtitle {
+  margin-bottom: 10px;
+
   font-size: 28px;
   line-height: 1.29;
   color: var(--secondary-color-text);
 }
+.freecleaning-text {
+  margin-bottom: 10px;
+}
 .freecleaning-btn {
+  padding: 26px 38px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
@@ -631,6 +661,58 @@ img {
   border: 1px solid #eff0f6;
   box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
   border-radius: 14px;
+}
+.form {
+  padding: 85px 60px;
+  background: var(--white-color);
+  border: 1px solid #eff0f6;
+  box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+  border-radius: 16px;
+}
+.form-block-input {
+  display: flex;
+  margin-bottom: 30px;
+}
+.form-block-input-left {
+  margin-right: 30px;
+}
+.form-label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+
+  color: var(--secondary-color-text);
+}
+.form-input {
+  max-width: 260px;
+  padding: 20px 30px;
+  background-color: var(--white-color);
+  border: 1px solid #eff0f6;
+  box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+  border-radius: 16px;
+}
+.form-label:not(:last-child) {
+  margin-bottom: 30px;
+}
+.form-note {
+  padding: 20px 30px;
+  resize: none;
+  border: 1px solid #eff0f6;
+  box-shadow: 0px 2px 7px rgba(20, 20, 43, 0.08);
+  border-radius: 22px;
+}
+.form-submit {
+  padding: 26px 20px;
+  background: #0075ff;
+  border-style: none;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--white-color);
 }
 .quality-title {
   font-size: 28px;
