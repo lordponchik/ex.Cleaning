@@ -25,11 +25,11 @@ body {
 }
 .container {
   /* width: 1440px; */
-  width: 1368px;
+  width: 1200px;
   /* padding-left: 110px;
   padding-right: 110px; */
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
 }
 img {
@@ -714,14 +714,36 @@ img {
   text-align: center;
   color: var(--white-color);
 }
+.footer {
+  padding-top: 240px;
+}
+.footer-menu {
+  display: flex;
+  margin-left: -40px;
+  margin-bottom: 100px;
+}
+.footer-list {
+  flex-basis: calc(100% / 4 - 40px);
+  margin-left: 40px;
+}
 .quality-title {
+  margin-bottom: 10px;
+
   font-size: 28px;
   line-height: 1.29;
   color: var(--secondary-color-text);
 }
 .quality-text {
+  margin-bottom: 30px;
+
   font-size: 18px;
   line-height: 1.67;
+}
+.social {
+  display: flex;
+}
+.social-list:not(:last-child) {
+  margin-right: 16px;
 }
 .social-link {
   display: block;
@@ -731,6 +753,9 @@ img {
   border-radius: 8px;
 }
 .contact-title {
+  display: inline-flex;
+  margin-bottom: 30px;
+
   font-weight: 700;
   font-size: 20px;
   line-height: 1.1;
@@ -743,12 +768,33 @@ img {
   line-height: 1.67;
 }
 .opening-title {
+  display: inline-flex;
+  margin-bottom: 30px;
+
   font-weight: 700;
   font-size: 20px;
   line-height: 1.1;
   color: var(--secondary-color-text);
 }
+.contact-list:not(:last-child) {
+  margin-bottom: 15px;
+}
+.contact-telephone {
+  display: inline-flex;
+
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--primary-color-text);
+}
+.contact-email {
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--primary-color-text);
+}
 .opening-weekdays {
+  margin-bottom: 20px;
+}
+.opening-days {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
@@ -758,29 +804,34 @@ img {
   font-size: 18px;
   line-height: 1.67;
 }
-.opening-weekend {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.11;
-  color: var(--secondary-color-text);
-}
+
 .free-estimate-title {
+  display: inline-flex;
+  margin-bottom: 30px;
+
   font-weight: 700;
   font-size: 20px;
   line-height: 1.1;
   color: var(--secondary-color-text);
 }
 .free-estimate-tel {
+  margin-bottom: 5px;
+
   font-weight: 700;
   font-size: 28px;
   line-height: 1.29;
   color: var(--accent-color);
 }
 .free-estimate-text {
+  margin-bottom: 20px;
+
   font-size: 18px;
   line-height: 1.67;
 }
 .free-estimate-btn {
+  padding: 26px 38px;
+
+  border-style: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
@@ -788,4 +839,12 @@ img {
   color: var(--secondary-background-color);
   background: var(--accent-color);
   border-radius: 14px;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid #eff0f6;
 }
