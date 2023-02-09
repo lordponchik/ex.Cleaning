@@ -1,0 +1,58 @@
+.differences__wrapper {
+  border-bottom: 1px solid #dcddeb;
+}
+.differences__area {
+  display: flex;
+  align-items: center;
+  height: 590px;
+  background-image: url(../../images/man-cleaning.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.differences__content {
+  width: 480px;
+  margin-right: auto;
+}
+.differences__title {
+  margin-bottom: 19px;
+
+  font-size: 48px;
+  line-height: 1.21;
+  color: $secondary-color-text;
+}
+.differences__description {
+  margin-bottom: 15px;
+
+  font-size: 18px;
+  line-height: 1.67;
+}
+.differences__text {
+  margin-bottom: 26px;
+
+  font-size: 12px;
+  line-height: 2.5;
+}
+
+.progress {
+  display: flex;
+  margin-bottom: 50px;
+}
+.progress__item {
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+.progress__amount {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1.22;
+  color: $secondary-color-text;
+}
+.progress-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.progress__plus {
+  color: $accent-color;
+}

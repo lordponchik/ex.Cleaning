@@ -1,0 +1,42 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+.header__logo {
+  margin-right: 40px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-menu__item {
+  &:not(:last-child) {
+    margin-right: 22px;
+  }
+}
+.nav-menu__link {
+  font-size: 18px;
+  line-height: 1.67;
+  color: $secondary-color-text;
+}
+.basket {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.basket__text {
+  margin-right: 24px;
+
+  font-size: 18px;
+  line-height: 1.67;
+  color: $secondary-color-text;
+}

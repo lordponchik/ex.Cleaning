@@ -18,109 +18,126 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
+      <div class="container header__container">
         <nav class="nav">
-          <a class="logo link" href="/">Cleaning</a>
+          <a class="logo header__logo link" href="/">
+            <svg width="50" height="40" class="logo__icon">
+              <use href="./images/sprite.svg#icon-logo"></use></svg
+            >Cleaning X</a
+          >
           <ul class="nav-menu list">
-            <li class="nav-list"><a href="" class="nav-link link">Home</a></li>
-            <li class="nav-list"><a href="" class="nav-link link">About</a></li>
-            <li class="nav-list">
-              <a href="" class="nav-link link">Services</a>
+            <li class="nav-menu__item">
+              <a href="" class="nav-menu__link link">Home</a>
             </li>
-            <li class="nav-list"><a href="" class="nav-link link">Pages</a></li>
-            <li class="nav-list">
-              <a href="" class="nav-link link">Contact</a>
+            <li class="nav-menu__item">
+              <a href="" class="nav-menu__link link">About</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="" class="nav-menu__link link">Services</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="" class="nav-menu__link link">Pages</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="" class="nav-menu__link link">Contact</a>
             </li>
           </ul>
         </nav>
-        <div class="basket-modal">
-          <p class="basket-text">Cart (0)</p>
-          <button type="button" class="basket-btn">Get a free quote</button>
+        <div class="basket">
+          <p class="basket__text">Cart (0)</p>
+          <button type="button" class="btn btn--accent">
+            Get a free quote
+          </button>
         </div>
       </div>
     </header>
     <main>
       <section class="hero">
-        <div class="container hero-container">
-          <div class="hero-wrapper">
-            <h1 class="hero-title">Quality cleaning for your home</h1>
-            <p class="hero-text">
+        <div class="container hero__container">
+          <div class="hero__wrapper">
+            <h1 class="hero__title">Quality cleaning for your home</h1>
+            <p class="hero__text">
               Condimentum mauris sit cursus amet id non neque pharetra nulla
               ornare sed facilisis senectus dapibus nibh ultrices eget suscipit
               aliquet et nulla magna lacus penatibus.
             </p>
-            <div class="hero-btn-block">
-              <button type="button" class="hero-btn">Get a free quote</button>
-              <div class="hero-tel-block">
-                <p class="hero-tel">Call us now</p>
-                <a href="tel:4145672109" class="hero-tel-link"
-                  >(414) 567 - 2109</a
-                >
+            <div class="hero__order">
+              <button type="button" class="btn btn--accent hero__btn">
+                Get a free quote
+              </button>
+              <div class="connection">
+                <div class="connection__thumb">
+                  <svg width="35" height="35" class="connection__icon">
+                    <use href="../images/sprite.svg#icon-phone"></use>
+                  </svg>
+                </div>
+                <div class="connection__wrapper">
+                  <p class="connection__label">Call us now</p>
+                  <a href="tel:4145672109" class="connection__tel link"
+                    >(414) 567 - 2109</a
+                  >
+                </div>
               </div>
             </div>
           </div>
-          <!-- <img src="./images/hero-img.png" alt="Girl vacuuming" /> -->
         </div>
       </section>
-      <section class="our-service">
+      <section class="service">
         <div class="container">
-          <div class="our-service-wrapper section">
-            <h2 class="our-service-title">How our service works?</h2>
-            <p class="our-service-text">
+          <div class="service__wrapper section">
+            <h2 class="service__title">How our service works?</h2>
+            <p class="service__text">
               Sagittis nibh scelerisque vitae eget vulputate sem elementum sed
               neque nisi felis non ultrices massa id egestas quam velit pretium
               nu.
             </p>
-            <ul class="steps-menu list">
-              <li class="steps-list">
-                <img
-                  src="./images/calendar.png"
-                  alt="Calendar"
-                  class="steps-img"
-                  width="240"
-                />
-                <h3 class="steps-title">1. Schedule online</h3>
-                <p class="steps-description">
+            <ul class="steps list">
+              <li class="steps__item">
+                <div class="steps__thumbs">
+                  <svg width="176" height="192" class="steps__icon">
+                    <use href="./images/sprite.svg#icon-calendar"></use>
+                  </svg>
+                </div>
+                <h3 class="steps__title">1. Schedule online</h3>
+                <p class="steps__description">
                   Sagittis nibh scelerisque vitae egetolment vulputate sem
                   elementum sed n.
                 </p>
               </li>
-              <li class="steps-list">
-                <img
-                  src="./images/credit.png"
-                  alt="Credit"
-                  class="steps-img"
-                  width="270"
-                />
-                <h3 class="steps-title">2. Pay online easily</h3>
-                <p class="steps-description">
+              <li class="steps__item">
+                <div class="steps__thumbs">
+                  <svg width="269" height="203" class="steps__icon">
+                    <use href="./images/sprite.svg#icon-cards"></use>
+                  </svg>
+                </div>
+                <h3 class="steps__title">2. Pay online easily</h3>
+                <p class="steps__description">
                   Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida
                   amet at nunc.
                 </p>
               </li>
-              <li class="steps-list">
-                <img
-                  src="./images/vacuum-cleaner.png"
-                  alt="Vacuum cleaner"
-                  class="steps-img"
-                  width="258"
-                />
-                <h3 class="steps-title">3. Get your house cleaned</h3>
-                <p class="steps-description">
+              <li class="steps__item">
+                <div class="steps__thumbs">
+                  <svg width="241" height="203" class="steps__icon">
+                    <use href="./images/sprite.svg#icon-vacuum"></use>
+                  </svg>
+                </div>
+                <h3 class="steps__title">3. Get your house cleaned</h3>
+                <p class="steps__description">
                   Nunc maecenas sollicitudin metus tellus mattis sed porttitor
                   cursus eleifend.
                 </p>
               </li>
             </ul>
-            <div class="our-service-btn-block">
-              <button type="button" class="our-service-get">
+            <div class="service__btns">
+              <button type="button" class="btn btn--accent service__btn">
                 Get a free quote
               </button>
-              <button type="button" class="our-service-explore">
+              <button type="button" class="btn btn--white">
                 Explore services
               </button>
             </div>
@@ -129,35 +146,53 @@
       </section>
       <section class="statistics">
         <div class="container">
-          <div class="statistics-wrapper section">
-            <h2 class="statistics-title">
+          <div class="statistics__wrapper section">
+            <h2 class="statistics__title">
               Our cleaning services have <br />
               no comparison
             </h2>
-            <p class="statistics-description">
+            <p class="statistics__description">
               Lobortis mattis odio leo eget mauris met aliquet semper molestie
               sollicitudin congue massa mauris lectus vitae cras viverra gravida
               sapien.
             </p>
-            <ul class="statistics-menu list">
-              <li class="statistics-list">
-                <img src="" alt="" class="statistics-logo" />
-                <p class="statistics-name">clients</p>
-                <p class="statistics-amount">3,480+</p>
+            <ul class="statistics__menu list">
+              <li class="statistics__item">
+                <div class="statistics__thumb">
+                  <svg class="statistics__icon" width="39" height="31">
+                    <use href="./images/sprite.svg#icon-hearts"></use>
+                  </svg>
+                </div>
+                <div class="statistics__meta">
+                  <p class="statistics__name">clients</p>
+                  <p class="statistics__amount">3,480+</p>
+                </div>
               </li>
-              <li class="statistics-list">
-                <img src="" alt="" class="statistics-logo" />
-                <p class="statistics-name">Jobs done</p>
-                <p class="statistics-amount">12,540+</p>
+              <li class="statistics__item">
+                <div class="statistics__thumb">
+                  <svg class="statistics__icon" width="39" height="39">
+                    <use href="./images/sprite.svg#icon-check"></use>
+                  </svg>
+                </div>
+                <div class="statistics__meta">
+                  <p class="statistics__name">Jobs done</p>
+                  <p class="statistics__amount">12,540+</p>
+                </div>
               </li>
-              <li class="statistics-list">
-                <img src="" alt="" class="statistics-logo" />
-                <p class="statistics-name">Employees</p>
-                <p class="statistics-amount">100+</p>
+              <li class="statistics__item">
+                <div class="statistics__thumb">
+                  <svg class="statistics__icon" width="29" height="35">
+                    <use href="./images/sprite.svg#icon-person"></use>
+                  </svg>
+                </div>
+                <div class="statistics__meta">
+                  <p class="statistics__name">Employees</p>
+                  <p class="statistics__amount">100+</p>
+                </div>
               </li>
             </ul>
             <img
-              class="statistics-img"
+              class="statistics__img"
               src="./images/cleaning.jpg"
               alt="Cleaning"
               width="1012"
@@ -165,53 +200,53 @@
           </div>
         </div>
       </section>
-      <section class="work-locations section">
+      <section class="working section">
         <div class="container">
-          <div class="work-locations-nav-wrapper">
-            <h2 class="work-locations-title">
+          <div class="working__wrapper">
+            <h2 class="working__title">
               Take a look at our <br />
               professional services
             </h2>
-            <button type="button" class="work-locations-btn">
+            <button type="button" class="btn btn--white">
               Explore services
             </button>
           </div>
           <ul class="locations list">
-            <li class="locations-list">
+            <li class="locations__item">
               <img
                 src="./images/house.png"
                 alt="House"
-                class="locations-img"
+                class="locations__img"
                 width="220"
               />
-              <h3 class="locations-title">House cleaning</h3>
-              <p class="locations-description">
+              <h3 class="locations__title">House cleaning</h3>
+              <p class="locations__description">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est.
               </p>
             </li>
-            <li class="locations-list">
+            <li class="locations__item">
               <img
                 src="./images/office.png"
                 alt="Office"
-                class="locations-img"
+                class="locations__img"
                 width="220"
               />
-              <h3 class="locations-title">Office cleaning</h3>
-              <p class="locations-description">
+              <h3 class="locations__title">Office cleaning</h3>
+              <p class="locations__description">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est.
               </p>
             </li>
-            <li class="locations-list">
+            <li class="locations__item">
               <img
                 src="./images/industrial.png"
                 alt="Industrial"
-                class="locations-img"
+                class="locations__img"
                 width="250"
               />
-              <h3 class="locations-title">Industrial cleaning</h3>
-              <p class="locations-description">
+              <h3 class="locations__title">Industrial cleaning</h3>
+              <p class="locations__description">
                 Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
                 dalaracc lacus vel facilisis volutpat est.
               </p>
@@ -221,67 +256,73 @@
       </section>
       <section class="sanitization">
         <div class="container">
-          <div class="sanitization-wrapper">
-            <div class="sanitization-description">
-              <p class="sanitization-subtitle">Covid-19 sanitization</p>
-              <h2 class="sanitization-title">
+          <div class="sanitization__wrapper">
+            <div class="sanitization__content">
+              <p class="sanitization__subtitle">Covid-19 sanitization</p>
+              <h2 class="sanitization__title">
                 We follow guidelines <br />
                 to keep you safe from <br />
                 the COVID-19 virus
               </h2>
-              <p class="sanitization-text">
+              <p class="sanitization__description">
                 Lobortis mattis odio leo eget mauris met aliquet <br />
                 semper molestie sollicitudin congue massa <br />
                 mauris lectus.
               </p>
-              <div class="sanitization-btn-block">
-                <button type="button" class="sanitization-btn">
+              <div class="sanitization__segment">
+                <button type="button" class="btn btn--accent sanitization__btn">
                   Get a free quote
                 </button>
-                <div class="sanitization-tel-block">
-                  <p class="sanitization-tel">Call us now</p>
-                  <a href="tel:4145672109" class="sanitization-tel-link"
-                    >(414) 567 - 2109</a
-                  >
+                <div class="connection">
+                  <div class="connection__thumb">
+                    <svg width="35" height="35" class="connection__icon">
+                      <use href="../images/sprite.svg#icon-phone"></use>
+                    </svg>
+                  </div>
+                  <div class="connection__wrapper">
+                    <p class="connection__label connection__label--white">
+                      Call us now
+                    </p>
+                    <a
+                      href="tel:4145672109"
+                      class="connection__tel connection__tel--white link"
+                      >(414) 567 - 2109</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="areasworks section">
-        <div class="container areasworks-container">
-          <img
-            src="./images/home.png"
-            alt="Home"
-            class="areasworks-img"
-            width="640"
-          />
-          <div class="areasworks-text-block">
-            <h2 class="areasworks-title">
-              We cover all areas of your home or office
+      <section class="areasworks">
+        <div class="container areasworks__container">
+          <div class="areasworks__content">
+            <h2 class="areasworks__title">
+              We cover all areas of <br />
+              your home or office
             </h2>
-            <p class="areasworks-description">
+            <p class="areasworks__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
             </p>
-            <div class="areasworks-menu">
-              <ul class="areasworks-left list">
-                <li class="areasworks-list">Bathrooms</li>
-                <li class="areasworks-list">Kitchens</li>
-                <li class="areasworks-list">Living Rooms</li>
-                <li class="areasworks-list">Carpets</li>
+            <div class="spotwork">
+              <ul class="spotwork__menu spotwork__menu--left list">
+                <li class="spotwork__item">Bathrooms</li>
+                <li class="spotwork__item">Kitchens</li>
+                <li class="spotwork__item">Living Rooms</li>
+                <li class="spotwork__item">Carpets</li>
               </ul>
-              <ul class="areasworks-right list">
-                <li class="areasworks-list">Bedrooms</li>
-                <li class="areasworks-list">Offices</li>
-                <li class="areasworks-list">Businesses</li>
-                <li class="areasworks-list">Windows</li>
+              <ul class="spotwork__menu list">
+                <li class="spotwork__item">Bedrooms</li>
+                <li class="spotwork__item">Offices</li>
+                <li class="spotwork__item">Businesses</li>
+                <li class="spotwork__item">Windows</li>
               </ul>
             </div>
 
-            <button type="button" class="areasworks-btn">
+            <button type="button" class="btn btn--accent">
               Get a free quote
             </button>
           </div>
@@ -289,102 +330,104 @@
       </section>
       <section class="differences">
         <div class="container">
-          <div class="differences-wrapper section">
-            <div class="differences-text-block">
-              <h2 class="differences-title">What makes us different?</h2>
-              <p class="differences-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
-              </p>
-              <p class="differences-text">
-                Sed ut perspiciatis unde omnis iste natus error sit atem
-                accusantium doloremque laudantiu sed ut.
-              </p>
-              <ul class="progress list">
-                <li class="progress-list">
-                  <p class="progress-amount">10+</p>
-                  <p class="progress-name">Years</p>
-                </li>
-                <li class="progress-list">
-                  <p class="progress-amount">5k+</p>
-                  <p class="progress-name">Clients</p>
-                </li>
-                <li class="progress-list">
-                  <p class="progress-amount">20k+</p>
-                  <p class="progress-name">Jobs done</p>
-                </li>
-              </ul>
-              <button type="button" class="differences-btn">
-                Get a free quote
-              </button>
+          <div class="differences__wrapper section">
+            <div class="differences__area">
+              <div class="differences__content">
+                <h2 class="differences__title">What makes us different?</h2>
+                <p class="differences__description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
+                <p class="differences__text">
+                  Sed ut perspiciatis unde omnis iste natus error sit atem
+                  accusantium doloremque laudantiu sed ut.
+                </p>
+                <ul class="progress list">
+                  <li class="progress__item">
+                    <p class="progress__amount">
+                      10<span class="progress__plus">+</span>
+                    </p>
+                    <p class="progress__name">Years</p>
+                  </li>
+                  <li class="progress__item">
+                    <p class="progress__amount">
+                      5k<span class="progress__plus">+</span>
+                    </p>
+                    <p class="progress__name">Clients</p>
+                  </li>
+                  <li class="progress__item">
+                    <p class="progress__amount">
+                      20k<span class="progress__plus">+</span>
+                    </p>
+                    <p class="progress__name">Jobs done</p>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn--accent">
+                  Get a free quote
+                </button>
+              </div>
             </div>
-            <img
-              src="./images/man-cleaning.png"
-              alt="Man cleaning"
-              class="differences-img"
-              width="686"
-            />
           </div>
         </div>
       </section>
       <section class="resources section">
         <div class="container">
-          <div class="resources-wrapper">
-            <div class="resources-text-block">
-              <h2 class="resources-title">Articles & resources</h2>
-              <p class="resources-text">
+          <div class="resources__wrapper">
+            <div class="resources__content">
+              <h2 class="resources__title">Articles & resources</h2>
+              <p class="resources__text">
                 Lobortis mattis odio leo eget mauris met aliquet semper molestie
                 sollicitudin congue massa mauris lectus.
               </p>
             </div>
-            <button type="button" class="resources-get">
+            <button type="button" class="btn btn--accent resources__btn">
               Get a free quote
             </button>
-            <button type="button" class="resources-browse">
+            <button type="button" class="btn btn--white">
               Browse articles
             </button>
           </div>
           <ul class="articles list">
-            <li class="articles-list">
+            <li class="articles__item">
               <img
                 src="./images/best-vacuum.jpg"
                 alt="Best vacuum"
-                class="articles-img"
+                class="articles__img"
                 width="596"
               />
-              <div class="articles-text">
-                <h3 class="articles-title">
+              <div class="articles__content">
+                <h3 class="articles__title">
                   8 best vacuum cleaners to clean any mess for your home in 2022
                 </h3>
-                <p class="articles-description">
+                <p class="articles__description">
                   Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo
                   quis odio sit sit ac port titor sit males.
                 </p>
-                <div class="articles-bottom">
-                  <p class="articles-date">Jan 28, 2022</p>
-                  <button type="button" class="articles-btn"></button>
+                <div class="articles__meta">
+                  <p class="articles__date">Jan 28, 2022</p>
+                  <button type="button" class="articles__btn"></button>
                 </div>
               </div>
             </li>
-            <li class="articles-list">
+            <li class="articles__item">
               <img
                 src="./images/proper-disinfection.jpg"
                 alt="Proper disinfection"
-                class="articles-img"
+                class="articles__img"
                 width="596"
               />
-              <div class="articles-text">
-                <h3 class="articles-title">
+              <div class="articles__content">
+                <h3 class="articles__title">
                   How to properly disinfect your phone and other electronics
                 </h3>
-                <p class="articles-description">
+                <p class="articles__description">
                   Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo
                   quis odio sit sit ac port titor sit males.
                 </p>
-                <div class="articles-bottom">
-                  <p class="articles-date">Feb 1, 2022</p>
-                  <button type="button" class="articles-btn"></button>
+                <div class="articles__meta">
+                  <p class="articles__date">Feb 1, 2022</p>
+                  <button type="button" class="articles__btn"></button>
                 </div>
               </div>
             </li>
@@ -392,142 +435,164 @@
         </div>
       </section>
       <section class="freecleaning section">
-        <div class="container freecleaning-container">
-          <div class="freecleaning-block-text">
-            <div class="freecleaning-block-text-top">
-              <h2 class="freecleaning-title">
+        <div class="container freecleaning__container">
+          <div class="freecleaning__content">
+            <div class="freecleaning__request">
+              <h2 class="freecleaning__title">
                 Request a free <br />
                 cleaning quote today
               </h2>
-              <p class="freecleaning-description">
+              <p class="freecleaning__description">
                 In dignissim euismod pretium amet enim a eu nam ut urna accumsan
                 pellentesque lacus duis pharetra eutortor.
               </p>
-              <p class="freecleaning-tel">Call us now</p>
-              <a href="tel:4145672109" class="freecleaning-tel-link"
-                >(414) 567 - 2109</a
-              >
+              <div class="connection">
+                <div class="connection__thumb">
+                  <svg width="35" height="35" class="connection__icon">
+                    <use href="../images/sprite.svg#icon-phone"></use>
+                  </svg>
+                </div>
+                <div class="connection__wrapper">
+                  <p class="connection__label">Call us now</p>
+                  <a href="tel:4145672109" class="connection__tel link"
+                    >(414) 567 - 2109</a
+                  >
+                </div>
+              </div>
             </div>
-            <div class="freecleaning-block-text-bottom">
-              <h3 class="freecleaning-subtitle">Not convinced yet?</h3>
-              <p class="freecleaning-text">
+            <div class="freecleaning__conviction">
+              <h3 class="freecleaning__subtitle">Not convinced yet?</h3>
+              <p class="freecleaning__description">
                 Massa bibendum consectetur maurisid gravida purus, dolor dui
                 amet morbi non nunc urna purus diam.
               </p>
-              <button type="button" class="freecleaning-btn">
+              <button type="button" class="btn btn--white">
                 Browse our packages
               </button>
             </div>
           </div>
           <form action="#" class="form">
-            <div class="form-block-input">
-              <div class="form-block-input-left">
-                <label class="form-label"
-                  >Full name<input type="text" class="form-name form-input"
+            <div class="form__inputs">
+              <div class="form__inputs-left">
+                <label class="form__label"
+                  >Full name<input type="text" class="form__name form__input"
                 /></label>
-                <label class="form-label"
-                  >Address<input type="text" class="form-address form-input"
+                <label class="form__label"
+                  >Address<input type="text" class="form__address form__input"
                 /></label>
-
-                <label class="form-label"
+                <label class="form__label"
                   >Requested service<input
                     type="text"
-                    class="form-requested form-input"
+                    class="form__requested form__input"
                 /></label>
               </div>
-              <div class="form-block-input-right">
-                <label class="form-label"
-                  >Phone number<input type="tel" class="form-tel form-input"
+              <div class="form__inputs-right">
+                <label class="form__label"
+                  >Phone number<input type="tel" class="form__tel form__input"
                 /></label>
-                <label class="form-label"
-                  >Email<input type="email" class="form-email form-input"
+                <label class="form__label"
+                  >Email<input type="email" class="form__email form__input"
                 /></label>
-                <label class="form-label"
-                  >Day of service<input type="text" class="form-day form-input"
+                <label class="form__label"
+                  >Day of service<input
+                    type="text"
+                    class="form__day form__input"
                 /></label>
               </div>
             </div>
-            <label class="form-label"
+            <label class="form__label"
               >Add a note
-              <textarea name="" rows="10" class="form-note"></textarea>
+              <textarea
+                name="form__note"
+                rows="10"
+                class="form__note"
+              ></textarea>
             </label>
-            <button type="button" class="form-submit">Submit message</button>
+            <button type="button" class="btn btn--accent form__submit">
+              Submit message
+            </button>
           </form>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <ul class="footer-menu list">
-          <li class="quality footer-list">
-            <h2 class="quality-title">Quality cleaning for your home</h2>
-            <p class="quality-text">
+        <ul class="footer__menu list">
+          <li class="footer__item quality">
+            <h2 class="quality__title">Quality cleaning for your home</h2>
+            <p class="quality__text">
               Lorem ipsum dolor sit amet cteturdo adipiscing elit, sed do
               eiusmo.
             </p>
             <ul class="social list">
-              <li class="social-list">
-                <a href="" class="social-link link"></a>
+              <li class="social__item">
+                <a href="" class="social__link link"></a>
               </li>
-              <li class="social-list">
-                <a href="" class="social-link link"></a>
+              <li class="social__item">
+                <a href="" class="social__link link"></a>
               </li>
-              <li class="social-list">
-                <a href="" class="social-link link"></a>
+              <li class="social__item">
+                <a href="" class="social__link link"></a>
               </li>
-              <li class="social-list">
-                <a href="" class="social-link link"></a>
+              <li class="social__item">
+                <a href="" class="social__link link"></a>
               </li>
-              <li class="social-list">
-                <a href="" class="social-link link"></a>
+              <li class="social__item">
+                <a href="" class="social__link link"></a>
               </li>
             </ul>
           </li>
-          <li class="contact footer-list">
-            <b class="contact-title">Contact us</b> <br />
+          <li class="contact footer__item">
+            <b class="contact__title">Contact us</b> <br />
 
-            <ul class="contact-information list">
-              <li class="contact-list">
+            <ul class="contact__information list">
+              <li class="contact__item">
                 1827 Nickel Road, Los Angeles, CA, 90017, United States
               </li>
-              <li class="contact-list">
-                <a href="tel:4145672109" class="contact-telephone link"
+              <li class="contact__item">
+                <a href="tel:4145672109" class="contact__telephone link"
                   >(414) 567 - 2109</a
                 >
               </li>
-              <li class="contact-list">
-                <a href="mailto:contact@cleaning.com" class="contact-email link"
+              <li class="contact__item">
+                <a
+                  href="mailto:contact@cleaning.com"
+                  class="contact__email link"
                   >contact@cleaning.com</a
                 >
               </li>
             </ul>
           </li>
-          <li class="opening footer-list">
-            <b class="opening-title">Hours</b><br />
-            <div class="opening-weekdays">
-              <p class="opening-days">Monday to Friday</p>
-              <p class="opening-hours">6:00 AM - 9:00 PM</p>
+          <li class="opening footer__item">
+            <b class="opening__title">Hours</b><br />
+            <div class="opening__weekdays">
+              <p class="opening__days">Monday to Friday</p>
+              <p class="opening__hours">6:00 AM - 9:00 PM</p>
             </div>
-            <div class="opening-weekend">
-              <p class="opening-days">Saturday & Sunday</p>
-              <p class="opening-hours">8:00 AM - 8:00 PM</p>
+            <div class="opening__weekend">
+              <p class="opening__days">Saturday & Sunday</p>
+              <p class="opening__hours">8:00 AM - 8:00 PM</p>
             </div>
           </li>
-          <li class="free-estimate footer-list">
-            <b class="free-estimate-title">Get a free estimate</b><br />
-            <a href="tel:4145672109" class="free-estimate-tel"
+          <li class="free-estimate footer__item">
+            <b class="free-estimate__title">Get a free estimate</b><br />
+            <a href="tel:4145672109" class="free-estimate__tel"
               >(414) 567 - 2109</a
             >
-            <p class="free-estimate-text">
+            <p class="free-estimate__text">
               Lorem ipsum dolor sit amet ectetur adipiscing elit, sed do
               eiusmod.
             </p>
-            <button type="button" class="free-estimate-btn">
+            <button type="button" class="btn btn--accent">
               Request a free quote
             </button>
           </li>
         </ul>
-        <a class="logo footer-logo link" href="/">Cleaning</a>
+        <a class="logo footer__logo link" href="/">
+          <svg width="50" height="40" class="logo__icon">
+            <use href="./images/sprite.svg#icon-logo"></use></svg
+          >Cleaning X</a
+        >
       </div>
     </footer>
   </body>

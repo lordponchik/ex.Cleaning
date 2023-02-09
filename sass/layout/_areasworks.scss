@@ -1,0 +1,63 @@
+.areasworks {
+  padding-top: 240px;
+}
+.areasworks__container {
+  display: flex;
+  align-items: center;
+  height: 680px;
+
+  background-image: url("../images/home.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.areasworks__content {
+  width: 500px;
+  margin-left: auto;
+}
+.areasworks__title {
+  margin-bottom: 19px;
+
+  font-size: 48px;
+  line-height: 1.21;
+  color: $secondary-color-text;
+}
+.areasworks__description {
+  margin-bottom: 26px;
+
+  font-size: 18px;
+  line-height: 1.67;
+}
+.spotwork {
+  display: flex;
+  margin-bottom: 48px;
+}
+.spotwork__menu {
+  &--left {
+    margin-right: 55px;
+  }
+}
+.spotwork__item {
+  display: flex;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  color: $secondary-color-text;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+  &:before {
+    content: url("../../images/mark.svg");
+    display: flex;
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: $secondary-background-color;
+  }
+}

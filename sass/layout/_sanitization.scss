@@ -1,0 +1,42 @@
+.sanitization__wrapper {
+  padding: 138px 74px 138px 0;
+
+  background-image: url(../images/sanitization.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: $secondary-color-text;
+  border-radius: 24px;
+}
+.sanitization__content {
+  width: 556px;
+  margin-left: auto;
+}
+.sanitization__subtitle {
+  margin-bottom: 17px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.12;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: $white-color;
+}
+.sanitization__title {
+  margin-bottom: 18px;
+
+  font-size: 48px;
+  line-height: 1.21;
+  color: $white-color;
+}
+.sanitization__description {
+  margin-bottom: 12px;
+
+  color: $white-color;
+}
+.sanitization__segment {
+  display: flex;
+  align-items: center;
+}
+.sanitization__btn {
+  margin-right: 28px;
+}

@@ -1,0 +1,24 @@
+@import "./base/reset";
+
+@import "./utils/vars";
+@import "./utils/mixins";
+
+@import "./base/common";
+
+@import "./components/container";
+@import "./components/section";
+@import "./components/logo";
+@import "./components/btn";
+@import "./components/connection";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/service";
+@import "./layout/statistics";
+@import "./layout/working";
+@import "./layout/sanitization";
+@import "./layout/areasworks";
+@import "./layout/differences";
+@import "./layout/resources";
+@import "./layout/freecleaning";
+@import "./layout/footer";

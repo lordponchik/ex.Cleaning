@@ -1,0 +1,131 @@
+.footer {
+  padding-top: 240px;
+}
+.footer__menu {
+  @include flex-box(40px, 40px);
+  margin-bottom: 100px;
+}
+.footer__item {
+  @include flex-item(40px, 40px, 4);
+}
+.quality__title {
+  margin-bottom: 10px;
+
+  font-size: 28px;
+  line-height: 1.29;
+  color: $secondary-color-text;
+}
+.quality__text {
+  margin-bottom: 30px;
+
+  font-size: 18px;
+  line-height: 1.67;
+}
+.social {
+  display: flex;
+}
+.social__item {
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+.social__link {
+  display: block;
+  width: 36px;
+  height: 36px;
+
+  background: $secondary-background-color;
+  border-radius: 8px;
+}
+.contact__title {
+  display: inline-flex;
+  margin-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
+  color: $secondary-color-text;
+}
+.contact__information {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+}
+.opening__title {
+  display: inline-flex;
+  margin-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
+  color: $secondary-color-text;
+}
+.contact__item {
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+.contact__telephone {
+  display: inline-flex;
+
+  font-size: 18px;
+  line-height: 1.67;
+  color: $primary-color-text;
+}
+.contact__email {
+  font-size: 18px;
+  line-height: 1.67;
+  color: $primary-color-text;
+}
+.opening__title {
+  display: inline-flex;
+  margin-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
+  color: $secondary-color-text;
+}
+.opening__weekdays {
+  margin-bottom: 20px;
+}
+.opening__days {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  color: $secondary-color-text;
+}
+.opening__hours {
+  font-size: 18px;
+  line-height: 1.67;
+}
+.free-estimate__title {
+  display: inline-flex;
+  margin-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
+  color: $secondary-color-text;
+}
+.free-estimate__tel {
+  margin-bottom: 5px;
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.29;
+  color: $accent-color;
+}
+.free-estimate__text {
+  margin-bottom: 20px;
+
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.footer__logo {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid #eff0f6;
+}
