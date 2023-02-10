@@ -176,11 +176,16 @@ img {
   fill: #0075ff;
 }
 
+.connection:hover .connection__icon {
+  animation: phone 500ms infinite both;
+}
+
 .connection__label {
   font-size: 16px;
   line-height: 1.12;
   letter-spacing: 1.6px;
   text-transform: uppercase;
+  color: #211f54;
 }
 
 .connection__label--white {
@@ -196,6 +201,27 @@ img {
 
 .connection__tel--white {
   color: #ffffff;
+}
+
+@keyframes phone {
+  0% {
+    transform: rotateZ(0);
+  }
+  20% {
+    transform: rotateZ(-10deg);
+  }
+  40% {
+    transform: rotateZ(10deg);
+  }
+  60% {
+    transform: rotateZ(-10deg);
+  }
+  80% {
+    transform: rotateZ(10deg);
+  }
+  100% {
+    transform: rotateZ(-10deg);
+  }
 }
 
 .header__container {
