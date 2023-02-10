@@ -479,7 +479,7 @@ img {
 }
 
 .spotwork__item:before {
-  content: url("../../images/mark.svg");
+  content: url("../images/mark.svg");
   display: flex;
   width: 26px;
   height: 26px;
@@ -498,7 +498,7 @@ img {
   display: flex;
   align-items: center;
   height: 590px;
-  background-image: url(../../images/man-cleaning.svg);
+  background-image: url(../images/man-cleaning.svg);
   background-repeat: no-repeat;
   background-position: right;
 }
