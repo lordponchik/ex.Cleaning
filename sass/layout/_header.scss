@@ -55,6 +55,9 @@
   font-size: 18px;
   line-height: 1.67;
   color: inherit;
+  &--active {
+    border-bottom: 1px solid $accent-color;
+  }
 }
 .basket {
   display: flex;
