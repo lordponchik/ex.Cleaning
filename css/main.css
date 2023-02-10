@@ -48,11 +48,33 @@ img {
 }
 
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
   color: #211f54;
+}
+
+.logo__thumb {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.logo__thumb::before {
+  content: "";
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+  transform: skewX(-25deg);
+}
+
+.logo:hover .logo__thumb::before {
+  animation: shine 1.5s;
 }
 
 .logo__icon {
@@ -919,5 +941,6 @@ img {
   padding-top: 40px;
   padding-bottom: 40px;
   border-top: 1px solid #eff0f6;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
