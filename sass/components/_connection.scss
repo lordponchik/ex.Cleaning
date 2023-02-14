@@ -1,6 +1,11 @@
 .connection {
   display: flex;
   align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: 479px) {
+    flex-direction: column;
+  }
 }
 .connection__thumb {
   display: flex;

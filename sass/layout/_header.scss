@@ -1,22 +1,33 @@
 .header__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @media screen and (min-width: 480px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 .nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   padding-top: 38px;
   padding-bottom: 38px;
 }
 .header__logo {
-  margin-right: 40px;
+  @media screen and (min-width: 768px) {
+    margin-right: 40px;
+  }
 }
 .nav-menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @media screen and (min-width: 480px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 .nav-menu__item {
   overflow: hidden;
@@ -62,6 +73,7 @@
 .basket {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-left: auto;
 }
 .basket__text {

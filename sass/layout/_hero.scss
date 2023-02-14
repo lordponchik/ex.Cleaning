@@ -3,7 +3,14 @@
 
   background-image: url(../images/hero.svg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
+
+  @media screen and (max-width: 768px) {
+    background-size: cover;
+  }
+  @media screen and (min-width: 768px) {
+    background-position: right;
+  }
 }
 .hero__container {
   padding-top: 230px;
@@ -18,14 +25,34 @@
   font-size: 68px;
   line-height: 1.09;
   color: $secondary-color-text;
+
+  @media screen and (max-width: 1199px) {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  }
 }
 .hero__text {
   margin-bottom: 34px;
+
+  @media screen and (max-width: 1199px) {
+    color: $white-color;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
 }
 .hero__order {
-  display: flex;
-  align-items: center;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+
+    & > *:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
 }
 .hero__btn {
-  margin-right: 28px;
+  @media screen and (min-width: 768px) {
+    margin-right: 28px;
+  }
 }
