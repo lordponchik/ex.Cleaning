@@ -13,7 +13,7 @@
 
   &--accent {
     color: $white-color;
-    outline: 1px solid $accent-color;
+    border: 1px solid $accent-color;
     background-color: $accent-color;
 
     &::before {
@@ -36,7 +36,7 @@
     }
   }
   &--white {
-    outline: 1px solid #eff0f6;
+    border: 1px solid #eff0f6;
     color: $secondary-color-text;
     background-color: #ffffff;
     box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
