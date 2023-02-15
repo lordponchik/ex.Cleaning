@@ -66,6 +66,13 @@ img {
 
 @media screen and (min-width: 768px) {
   .section {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
     padding-top: 240px;
     padding-bottom: 240px;
   }
@@ -543,29 +550,69 @@ img {
 
 .statistics__title {
   margin-bottom: 13px;
-  font-size: 48px;
+  font-size: 28px;
   line-height: 1.21;
   text-align: center;
   color: #211f54;
 }
 
+@media screen and (min-width: 768px) {
+  .statistics__title {
+    font-size: 48px;
+  }
+}
+
 .statistics__description {
-  width: 702px;
-  margin: 0 auto 32px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .statistics__description {
+    width: 702px;
+    margin: 0 auto 32px;
+  }
+}
+
 .statistics__menu {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .statistics__menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
 .statistics__item {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .statistics__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .statistics__item::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "";
+    width: 60px;
+    height: 0px;
+    border-top: 5px dotted #0075ff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .statistics__item {
+    justify-content: center;
+  }
 }
 
 .statistics__thumb {
@@ -577,6 +624,12 @@ img {
   margin-right: 15px;
   border: 1px solid #dcddeb;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .statistics__meta {
+    text-align: end;
+  }
 }
 
 .statistics__name {
@@ -622,7 +675,14 @@ img {
 }
 
 .statistics__img {
+  display: none;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .statistics__img {
+    display: block;
+  }
 }
 
 .working__wrapper {
