@@ -224,6 +224,7 @@ img {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   color: #211f54;
+  text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
 }
 
 .connection__label--white {
