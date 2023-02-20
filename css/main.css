@@ -748,10 +748,21 @@ img {
 }
 
 .working__wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-bottom: 62px;
+}
+
+@media screen and (max-width: 767px) {
+  .working__wrapper {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .working__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .working__title {
@@ -760,30 +771,56 @@ img {
   color: #211f54;
 }
 
-.locations {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
+@media screen and (min-width: 768px) {
+  .locations {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -15px;
+    margin-left: -15px;
+  }
 }
 
 .locations__item {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-top: 30px;
-  margin-left: 30px;
-  padding: 83px 38px 29px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+  padding: 20px;
   border: 1px solid #eff0f6;
   box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
   border-radius: 16px;
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .locations__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .locations__item {
+    flex-basis: calc(100% / 3 - 15px);
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .locations__item {
+    padding: 83px 38px 29px;
+  }
+}
+
 .locations__img {
   margin-bottom: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .locations__img {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .locations__title {
@@ -793,9 +830,21 @@ img {
   color: #211f54;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .locations__title {
+    font-size: 20px;
+  }
+}
+
 .locations__description {
   margin-bottom: 13px;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .locations__description {
+    font-size: 15px;
+  }
 }
 
 .sanitization__wrapper {
