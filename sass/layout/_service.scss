@@ -10,6 +10,8 @@
   color: $secondary-color-text;
 }
 .service__text {
+  margin-bottom: 20px;
+
   @media screen and (max-width: 767px) {
     text-align: center;
   }
@@ -29,6 +31,14 @@
   }
 }
 .steps__item {
+  @media screen and (min-width: 420px) and (max-width: 799px) {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
   @media screen and (min-width: 800px) {
     @include flex-item(10px, 10px, 3);
   }
@@ -40,33 +50,62 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto 40px;
+  height: 100px;
 
   border-radius: 50%;
   background-color: #cee5ff;
 
+  @media screen and (max-width: 767px) {
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 799px) {
+    min-width: 100px;
+    max-width: 100px;
+  }
+  @media screen and (min-width: 420px) {
+    margin-right: 20px;
+  }
+  @media screen and (min-width: 800px) {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+  }
   @media screen and (min-width: 1200px) {
     width: 240px;
     height: 240px;
   }
 }
+.steps__wrapper {
+  align-self: center;
+}
+.steps__icon {
+  @media screen and (max-width: 799px) {
+    max-width: 80%;
+    height: auto;
+  }
+}
 .steps__title {
   margin-bottom: 16px;
 
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.29;
   text-align: center;
   color: $secondary-color-text;
 
+  @media screen and (min-width: 500px) {
+    font-size: 20px;
+  }
   @media screen and (min-width: 1200px) {
     font-size: 28px;
   }
 }
 .steps__description {
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
+
+  @media screen and (min-width: 500px) {
+    font-size: 18px;
+  }
 }
 .service__btns {
   text-align: center;
