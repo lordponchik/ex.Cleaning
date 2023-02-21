@@ -31,10 +31,12 @@
   letter-spacing: 1.6px;
   text-transform: uppercase;
   color: $secondary-color-text;
-  text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
 
   &--white {
     color: $white-color;
+  }
+  &--shadow {
+    text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
   }
 }
 .connection__tel {
@@ -42,10 +44,12 @@
   font-size: 28px;
   line-height: 1.29;
   color: $secondary-color-text;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 
   &--white {
     color: $white-color;
+  }
+  &--shadow {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   }
 }
 @keyframes phone {
