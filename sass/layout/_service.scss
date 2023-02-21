@@ -34,6 +34,7 @@
   @media screen and (min-width: 420px) and (max-width: 799px) {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     &:not(:last-child) {
       margin-bottom: 30px;
@@ -51,18 +52,18 @@
   justify-content: center;
   align-items: center;
   height: 100px;
+  margin-left: auto;
+  margin-right: auto;
 
   border-radius: 50%;
   background-color: #cee5ff;
 
-  @media screen and (max-width: 767px) {
-    margin: 0 auto;
-  }
   @media screen and (max-width: 799px) {
     min-width: 100px;
     max-width: 100px;
   }
-  @media screen and (min-width: 420px) {
+  @media screen and (min-width: 420px) and (max-width: 799px) {
+    margin-left: 0;
     margin-right: 20px;
   }
   @media screen and (min-width: 800px) {

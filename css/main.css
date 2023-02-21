@@ -484,6 +484,7 @@ img {
   .steps__item {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
   .steps__item:not(:last-child) {
     margin-bottom: 30px;
@@ -511,14 +512,10 @@ img {
   justify-content: center;
   align-items: center;
   height: 100px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 50%;
   background-color: #cee5ff;
-}
-
-@media screen and (max-width: 767px) {
-  .steps__thumbs {
-    margin: 0 auto;
-  }
 }
 
 @media screen and (max-width: 799px) {
@@ -528,8 +525,9 @@ img {
   }
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 420px) and (max-width: 799px) {
   .steps__thumbs {
+    margin-left: 0;
     margin-right: 20px;
   }
 }
