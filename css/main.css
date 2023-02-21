@@ -846,6 +846,16 @@ img {
   }
 }
 
+.sanitization {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .sanitization {
+    display: block;
+  }
+}
+
 .sanitization__wrapper {
   padding: 138px 74px 138px 0;
   background-image: url(../images/sanitization.svg);
