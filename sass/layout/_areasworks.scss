@@ -1,18 +1,32 @@
 .areasworks {
   padding-top: 240px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 180px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 240px;
+  }
 }
 .areasworks__container {
-  display: flex;
-  align-items: center;
-  height: 680px;
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    height: 680px;
 
-  background-image: url("../images/home.svg");
-  background-repeat: no-repeat;
-  background-position: left;
+    background-image: url("../images/home.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
 }
 .areasworks__content {
-  width: 500px;
-  margin-left: auto;
+  @media screen and (min-width: 1200px) {
+    width: 500px;
+    margin-left: auto;
+  }
 }
 .areasworks__title {
   margin-bottom: 19px;
@@ -30,10 +44,16 @@
 .spotwork {
   display: flex;
   margin-bottom: 48px;
+
+  @media screen and (max-width: 1199px) {
+    justify-content: center;
+  }
 }
 .spotwork__menu {
-  &--left {
-    margin-right: 55px;
+  @media screen and (min-width: 420px) {
+    &--left {
+      margin-right: 55px;
+    }
   }
 }
 .spotwork__item {
