@@ -1005,18 +1005,28 @@ img {
   border-bottom: 1px solid #dcddeb;
 }
 
-.differences__area {
-  display: flex;
-  align-items: center;
-  height: 590px;
-  background-image: url(../images/man-cleaning.svg);
-  background-repeat: no-repeat;
-  background-position: right;
+@media screen and (min-width: 1200px) {
+  .differences__area {
+    display: flex;
+    align-items: center;
+    height: 590px;
+    background-image: url(../images/man-cleaning.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
 }
 
-.differences__content {
-  width: 480px;
-  margin-right: auto;
+@media screen and (max-width: 1199px) {
+  .differences__content {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .differences__content {
+    width: 480px;
+    margin-right: auto;
+  }
 }
 
 .differences__title {
@@ -1039,12 +1049,36 @@ img {
 }
 
 .progress {
-  display: flex;
   margin-bottom: 50px;
 }
 
-.progress__item:not(:last-child) {
-  margin-right: 40px;
+@media screen and (min-width: 767px) {
+  .progress {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .progress {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .progress__item {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+  .progress__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .progress__item:not(:last-child) {
+    margin-right: 40px;
+  }
 }
 
 .progress__amount {
@@ -1054,10 +1088,22 @@ img {
   color: #211f54;
 }
 
-.progress-name {
+.progress__name {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1.33;
+}
+
+@media screen and (max-width: 767px) {
+  .progress__name {
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .progress__name {
+    font-size: 18px;
+  }
 }
 
 .progress__plus {
