@@ -330,7 +330,7 @@ img {
   height: 100%;
   z-index: -1;
   background-color: #0075ff;
-  transform: translateY(-100%);
+  transform: translateY(-110%);
   transition: transform 250ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
