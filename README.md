@@ -19,9 +19,7 @@ This project is a practical work on the layout of HTML pages using CSS and JavaS
 
 ## Technology stack
 
-* HTML5 <img height="32" width="32" src="https://cdn.simpleicons.org/html5/#E34F26" />
-* CSS3 <img height="32" width="32" src="https://cdn.simpleicons.org/css3/#1572B6" />
-* SASS <img height="32" width="32" src="https://cdn.simpleicons.org/sass/#CC6699" />
+<img height="32" width="32" src="https://cdn.simpleicons.org/html5/#E34F26" title="HTML5"/> <img height="32" width="32" src="https://cdn.simpleicons.org/css3/#1572B6" title="CSS3"/> <img height="32" width="32" src="https://cdn.simpleicons.org/sass/#CC6699" title="SASS"/>
 
 ## Libraries and tools used
 - [Modern-Normalize.css](https://cdnjs.com/libraries/modern-normalize/) — for unifying styles across browsers.
@@ -44,9 +42,7 @@ This project is a practical work on the layout of HTML pages using CSS and JavaS
 Цей проект є практичною роботою макету HTML-сторінок з використанням CSS і JavaScript. Мета проекту – покращити навички адаптивної верстки, стилізації за допомогою CSS та взаємодії з DOM через JavaScript. Створено лише домашню сторінку.
 
 ## Стек технологій
-- HTML5
-- CSS3
-- SASS
+<img height="32" width="32" src="https://cdn.simpleicons.org/html5/#E34F26" title="HTML5"/> <img height="32" width="32" src="https://cdn.simpleicons.org/css3/#1572B6" title="CSS3"/> <img height="32" width="32" src="https://cdn.simpleicons.org/sass/#CC6699" title="SASS"/>
 
 ## Використовувані бібліотеки та інструменти
 - [Modern-Normalize.css](https://cdnjs.com/libraries/modern-normalize/) - для уніфікації стилів у різних браузерах.
@@ -69,9 +65,7 @@ This project is a practical work on the layout of HTML pages using CSS and JavaS
 Этот проект представляет собой практическую работу по макету HTML-страниц с использованием CSS и JavaScript. Цель проекта - улучшить навыки адаптивной верстки, стилизации с помощью CSS и взаимодействия с DOM через JavaScript. Создана только домашняя страница.
 
 ## Стек технологий
-- HTML5
-- CSS3
-- SASS
+<img height="32" width="32" src="https://cdn.simpleicons.org/html5/#E34F26" title="HTML5"/> <img height="32" width="32" src="https://cdn.simpleicons.org/css3/#1572B6" title="CSS3"/> <img height="32" width="32" src="https://cdn.simpleicons.org/sass/#CC6699" title="SASS"/>
 
 ## Используемые библиотеки и инструменты
 - [Modern-Normalize.css](https://cdnjs.com/libraries/modern-normalize/) - для унификации стилей в разных браузерах.
