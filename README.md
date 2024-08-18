@@ -1,6 +1,6 @@
-<h1 id="home">⚠️ ex. - experience:</h1>
+<h4 id="home">⚠️ ex. - experience:</h4>
 
-## Cleaning
+# Cleaning
 
 * 🇺🇸 [English](#en)
 * 🇺🇦 [Ukrainian](#uk)
