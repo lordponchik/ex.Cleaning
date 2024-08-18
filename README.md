@@ -18,11 +18,10 @@ Design - [Figma layout](https://www.figma.com/file/Kdy7qTpYyWzvwBIuSGulqt/Cleani
 This project is a practical work on the layout of HTML pages using CSS and JavaScript. The goal of the project is to improve the skills of adaptive layout, styling with CSS, and interaction with the DOM via JavaScript. Only the home page has been created.
 
 ## Technology stack
-<img height="32" width="32" src="https://cdn.simpleicons.org/html5/#E34F26" />
 
-* HTML5
-* CSS3
-* SASS
+* HTML5 <img height="32" width="32" src="https://cdn.simpleicons.org/html5/#E34F26" />
+* CSS3 <img height="32" width="32" src="https://cdn.simpleicons.org/css3/#1572B6" />
+* SASS <img height="32" width="32" src="https://cdn.simpleicons.org/sass/#CC6699" />
 
 ## Libraries and tools used
 - [Modern-Normalize.css](https://cdnjs.com/libraries/modern-normalize/) — for unifying styles across browsers.
