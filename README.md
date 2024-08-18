@@ -1,4 +1,4 @@
-<h4 id="home">⚠️ *ex. - experience *</h4>
+<h4 id="home">⚠️ ex. - experience</h4>
 
 # Cleaning
 
