@@ -12,7 +12,7 @@
 
 > Practice of layout, styles and code
 
-Design - [Figma layout](https://www.figma.com/file/Kdy7qTpYyWzvwBIuSGulqt/Cleaning-X?type=design&node-id=0-1&mode=design&t=sMDvs5Rh40WuXOWv-0)
+<img height="32" width="32" src="https://cdn.simpleicons.org/figma/##F24E1E" title="Figma"/>Design - [Figma layout](https://www.figma.com/file/Kdy7qTpYyWzvwBIuSGulqt/Cleaning-X?type=design&node-id=0-1&mode=design&t=sMDvs5Rh40WuXOWv-0)
 
 ## Description
 This project is a practical work on the layout of HTML pages using CSS and JavaScript. The goal of the project is to improve the skills of adaptive layout, styling with CSS, and interaction with the DOM via JavaScript. Only the home page has been created.
