@@ -37,7 +37,7 @@ This project is a practical work on the layout of HTML pages using CSS and JavaS
 
 > Практика макета, стилів та коду
 
-Дизайн - [макет Figma]
+Дизайн - [Figma layout](https://www.figma.com/file/Kdy7qTpYyWzvwBIuSGulqt/Cleaning-X?type=design&node-id=0-1&mode=design&t=sMDvs5Rh40WuXOWv-0)
 
 ## Опис
 Цей проект є практичною роботою макету HTML-сторінок з використанням CSS і JavaScript. Мета проекту – покращити навички адаптивної верстки, стилізації за допомогою CSS та взаємодії з DOM через JavaScript. Створено лише домашню сторінку.
